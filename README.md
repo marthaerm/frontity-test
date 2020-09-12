@@ -8,7 +8,7 @@ This project was bootstrapped with [Frontity](https://frontity.org/).
 - [Create your custom theme](#create-your-custom-theme)
 - [Create a production-ready build](#create-a-production-ready-build)
 - [Deploy](#deploy)
-- [Martha's notes](#notes)
+- [Martha's notes](#notes-)
 
 ### Launch a development server
 
@@ -94,5 +94,5 @@ I think these are the most iportant files for now:
 - *packages/in-theme/src/pages and packages/in-theme/src/components:* These two have the same function we already know 
 
 I used these videos, they are in spanish but I hope they can help you ❤️
-[Basic cours of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbdbremvIIKhy5N6FX1W8EPmN)
-[More advanced course of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbda-7GOemB-h39Nkikpsn4NB)
+- [Basic cours of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbdbremvIIKhy5N6FX1W8EPmN)
+- [More advanced course of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbda-7GOemB-h39Nkikpsn4NB)
