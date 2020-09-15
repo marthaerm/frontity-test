@@ -2,45 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "deceed81f334ae3005bd",
+  "hash": "821e0a44f9641ef2a7a0",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\marth\\Documents\\i+n\\frontity-test\\build\\static",
   "assetsByChunkName": {
-    "frontity-test": [
-      "frontity-test.module.js",
-      "frontity-test.860f386cac2c6a4433ac.hot-update.js"
-    ]
+    "frontity-test": "frontity-test.module.js"
   },
   "assets": [
     {
-      "name": "860f386cac2c6a4433ac.hot-update.json",
-      "size": 55,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "frontity-test.860f386cac2c6a4433ac.hot-update.js",
-      "size": 3665,
-      "chunks": [
-        "frontity-test"
-      ],
-      "chunkNames": [
-        "frontity-test"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "frontity-test.module.js",
-      "size": 4796464,
+      "size": 4796615,
       "chunks": [
         "frontity-test"
       ],
@@ -58,8 +29,7 @@
         "frontity-test"
       ],
       "assets": [
-        "frontity-test.module.js",
-        "frontity-test.860f386cac2c6a4433ac.hot-update.js"
+        "frontity-test.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -71,8 +41,7 @@
         "frontity-test"
       ],
       "assets": [
-        "frontity-test.module.js",
-        "frontity-test.860f386cac2c6a4433ac.hot-update.js"
+        "frontity-test.module.js"
       ],
       "children": {},
       "childAssets": {}

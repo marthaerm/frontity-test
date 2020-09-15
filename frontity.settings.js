@@ -15,10 +15,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://webdev.image-nation.org/wp-json",
-          "params": {
-            "per_page": 99
-          },
+          "api": "https://admin.image-nation.org/wp-json",
+          
           "postTypes": [
             {
               type: "video",

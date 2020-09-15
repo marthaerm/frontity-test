@@ -3,7 +3,7 @@ const VideoPlayerCard = (props) => {
         <div className="video-player-card">
 
             <div className="video-player">
-            <iframe src={props.href} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe src={props.href} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 
             </iframe>
             </div>
