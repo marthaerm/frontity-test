@@ -1,14 +1,56 @@
-# frontity-test
+# frontity-in-theme
 
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
 #### Table of Contents
 
-- [Launch a development server](#launch-a-development-server)
-- [Create your custom theme](#create-your-custom-theme)
-- [Create a production-ready build](#create-a-production-ready-build)
-- [Deploy](#deploy)
-- [Martha's notes](#notes-)
+- [Theme instalation](#theme-installation)
+  - [Notes](#notes-)
+
+- [Frontity Documentation](#frontity)
+  - [Launch a development server](#launch-a-development-server)
+  - [Create your custom theme](#create-your-custom-theme)
+  - [Create a production-ready build](#create-a-production-ready-build)
+  - [Deploy](#deploy)
+  - [Martha's notes](#notes-)
+
+## Theme instalation
+
+This project already has configured the api link, you just have to install it and work with it. These are the instructions to install it in your local machine:
+
+1. Clone this project
+2. Inside of the directory's folder, run the next line:
+```
+npm install
+```
+3. To run the project, execute the next line:
+```
+npx frontity dev
+```
+
+After that, you can create your ow branch and start working with project.
+
+### Notes 💃
+
+Frontity works with *themes* it has some default theme, this project is *in-theme* 
+
+I used these plugins to personalize pages an components on WordPress:
+- [Custom Post Type UI plugin](https://es.wordpress.org/plugins/custom-post-type-ui/). It lets you to create cutom post element for wordpress, so you can create and manage content like, videos, films, etc.
+- [ACF plugin](https://es-mx.wordpress.org/plugins/advanced-custom-fields/). It helps to create custom fields for wordpress posts (or cutom post types), so you can add a ink field for example and the get it from react with frontity.
+
+I think these are the most iportant files for now:
+- *frontity.setting.js:* It has the main settings here, you can edit the wordpress api link, add more PostTypes, and choose the theme
+- *packages/in-theme/:* This is the folder fo the theme i created
+- *packages/in-theme/src/Root.js:* Here we can redirect the users depending on the route
+- *packages/in-theme/src/pages and packages/in-theme/src/components:* These two have the same function we already know 
+
+I used these videos, they are in spanish but I hope they can help you ❤️
+- [Basic cours of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbdbremvIIKhy5N6FX1W8EPmN)
+- [More advanced course of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbda-7GOemB-h39Nkikpsn4NB)
+
+***Enjoy coding!*** 💻
+
+## Frontity
 
 ### Launch a development server
 
@@ -80,19 +122,3 @@ Got questions or feedback about Frontity? We'd love to hear from you. Use our [c
 
 Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
 
-### Notes 💃
-Frontity works with *themes* it has some default theme, in this project I created *in-theme* 
-
-I used these plugins to personalize pages an components:
-- [Custom Post Type UI plugin](https://es.wordpress.org/plugins/custom-post-type-ui/). It lets you to create cutom post element for wordpress, so you can create and manage content like, videos, films, etc.
-- [ACF plugin](https://es-mx.wordpress.org/plugins/advanced-custom-fields/). It helps to create custom fields for wordpress posts (or cutom post types), so you can add a ink field for example and the get it from react with frontity.
-
-I think these are the most iportant files for now:
-- *frontity.setting.js:* It has the main settings here, you can edit the wordpress api link, add more PostTypes, and choose the theme
-- *packages/in-theme/:* This is the folder fo the theme i created
-- *packages/in-theme/src/Root.js:* Here we can redirect the users depending on the route
-- *packages/in-theme/src/pages and packages/in-theme/src/components:* These two have the same function we already know 
-
-I used these videos, they are in spanish but I hope they can help you ❤️
-- [Basic cours of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbdbremvIIKhy5N6FX1W8EPmN)
-- [More advanced course of Frontity](https://www.youtube.com/playlist?list=PLj8OTTEJGbda-7GOemB-h39Nkikpsn4NB)
